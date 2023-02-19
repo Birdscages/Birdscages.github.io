@@ -206,15 +206,17 @@ text-align: right;
 /*-- //nav --*/
 /*-- banner --*/ 
 /*--- slider-css --*/
-.one-img{ background: url(../Wallpaper/wall3.jpg) no-repeat 0px 0px;}
-.two-img{ background: url(../Wallpaper/wall2.jpg) no-repeat 0px 0px;}
-.three-img{ background: url(../Wallpaper/wall1.jpg) no-repeat 0px 0px;}
+.one-img{ background: url(../Wallpaper/wall4.jpg) no-repeat 0px 0px;}
+.two-img{ background: url(../Wallpaper/wall1.jpg) no-repeat 0px 0px;}
+.three-img{ background: url(../Wallpaper/wall2.jpg) no-repeat 0px 0px;}
 .slider-img {
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 -ms-background-size: cover;
-min-height: 800px;}
+height: auto;
+width: 100%;
+}
 .slider{
 position:relative;
 }
