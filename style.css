@@ -143,7 +143,8 @@ width: 100%;
 z-index: 99;
 background:rgba(0, 0, 0, 0.1);
 padding: 1em 3em 1.7em;
-box-shadow: 4px 1px 1px #424242;
+/* box-shadow: none; */
+/* box-shadow: 4px 1px 1px #424242; */
 }
 nav.navbar.navbar-expand-lg.navbar-light {
 background: rgba(0, 0, 0, 0);
@@ -657,14 +658,15 @@ padding-top: 4px;
 #toTop {
 display: none;
 text-decoration: none;
-position: fixed;
+/* position: fixed; */
 bottom: 20px;
 right: 2%;
 overflow: hidden;
 z-index: 999;
-width: 46px;
-height:46px;
+width: 4px;
+height:4px;
 border: none;
+padding-right: 2px;
 text-indent: 100%;
 background: url(../images/arr.png) no-repeat 0px 0px;
 }
