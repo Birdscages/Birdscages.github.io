@@ -11,6 +11,14 @@ margin: 0;
 background: #fff;
 letter-spacing: 1px;
 font-family: 'Montserrat', sans-serif;
+} 
+#box{
+    max-width: 10%;
+    width: 200px;
+    height: 100px;
+}
+#min{
+  max-width: 95%;
 }
 body a {
 outline: none;
